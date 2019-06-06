@@ -44,7 +44,7 @@ var  onGsClick = function(e) {
     if (!e.feature) return 
     popup
         .setLatLng(e.latlng)
-        .setContent("<b>ID:</b> "+e.feature.properties.uid+"<br><b>Land use:</b> "+e.feature.properties.lu)
+        .setContent("<font size=24px><b>ID:</b> "+e.feature.properties.uid+"</font><br><font size=24><b>Land use:</b> "+e.feature.properties.lu"</font>")
         .openOn(map);
 }
 
